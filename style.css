@@ -1,0 +1,96 @@
+body {
+	background: white;
+	font-family: Merriweather;
+	display: flex;
+}
+
+#three #ting .parent  {
+	text-align: center;
+	background-color: #002366;
+	border: 1px solid white;
+	position: relative;
+  	top: 50px;
+  	width: 400px;
+  	margin: 0 auto;
+  	/*line-height: 12px;*/
+  	display: flex;
+  	flex-flow: column wrap;
+}
+#ting{
+	background-color: #002366;
+	width: 100%;
+	height: 300px;
+	poition: relative;
+}
+#three{
+	display: grid;
+	grid-gap: 1em;
+
+}
+
+.wrapper .first hr {
+	border: solid;
+	background-color: #000;
+	color: #000;
+	height: 1px;
+	width: 90%;
+
+
+}
+.content{
+	width: 32em;
+	margin: 0 0 0 16em;
+}
+.date{
+	float:left;
+	font-size: 1em;
+	margin: 0 0 0 -16em;
+	text-align: right;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 40% 60%;
+	grid-gap: 1em;
+	top: 50px;
+}
+
+.wrapper .first{
+	background: lightgrey;
+	margin-left: 150px;
+
+}
+
+.wrapper .first h2{
+	margin-top: 20px;
+	margin-left: 10px;
+	
+}
+
+.bigr p{
+	line-height: 24px;
+}
+
+.wrapper .first .imag{
+	width: 128px;
+	height: 128px;
+	border-radius: 100px;
+	margin-top: 10px;
+	margin-left: 125px;
+
+
+}
+li{
+	list-style: none;
+	margin-left: 10px;
+	line-height: 24px;
+}
+
+ h1, h3{
+	padding-top: 10px;
+	color: white;
+}
+h4{
+	top: 20px;
+	line-height: 24px;
+}
