@@ -1,5 +1,5 @@
 body {
-	background: white;
+	background: #FDEDEC;
 	font-family: Merriweather;
 	display: flex;
 
@@ -8,7 +8,7 @@ body {
 
 #firstid #secondid .parent  {
 	text-align: center;
-	background-color: #002366;
+	background-color: #CD5C5C;
 	border: 1px solid white;
 	position: relative;
   	top: 50px;
@@ -19,7 +19,7 @@ body {
   	flex-flow: column wrap;
 }
 #secondid{
-	background-color: #002366;
+	background-color: #CD5C5C;
 	width: 100%;
 	height: 300px;
 	position: relative;  
@@ -29,6 +29,9 @@ body {
 	grid-gap: 1em;
 	
 
+}
+.div1 h1{
+	font-family: Lobster;
 }
 
 .wrapper .first hr {
@@ -72,7 +75,7 @@ body {
 }
 
 .wrapper .first{
-	background: lightgray;
+	background: #FA8072;
 	margin-left: 200px;
 
 }
